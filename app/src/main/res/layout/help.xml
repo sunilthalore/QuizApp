@@ -7,18 +7,10 @@
     <TextView
         android:id="@+id/helpText"
         android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="fill_parent"
         android:layout_margin="30dp"
         android:textSize="30sp"
         android:text="@string/helpText"
         android:textColor="#16ff12" />
-    <Button
-        android:id="@+id/dismissButton"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/helpText"
-        android:layout_centerHorizontal="true"
-
-        android:text="Ok"/>
 
 </RelativeLayout>

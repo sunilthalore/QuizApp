@@ -22,10 +22,18 @@
         android:layout_below="@+id/mainImage"
         android:text="@string/play"/>
     <Button
-        android:id="@+id/mb2"
+        android:id="@+id/loginBtn"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:layout_below="@+id/mb1"
+        android:text="Login"
+        />
+
+    <Button
+        android:id="@+id/mb2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/loginBtn"
         android:text="@string/help"/>
     <Button
         android:id="@+id/mb3"

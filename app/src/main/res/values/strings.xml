@@ -6,6 +6,9 @@
     <string name="play">Play</string>
     <string name="help">Help</string>
     <string name="exit">Exit</string>
+    <string name="login">Login</string>
+    <string name="uid">Please enter user ID</string>
+    <string name="password">Please enter password</string>
     <string name="helpText">Choose the appropriate and the proceed to the next question. There are total 10 questionsfor you to answer.
         Your score will be displayed at the end of the quiz. Good Luck!</string>
 </resources>

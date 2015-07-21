@@ -14,6 +14,7 @@ public class MainActivity extends AppCompatActivity {
 
     Button JmB1, JmB2, JmB3;
     Button JDismissButton;
+    Button JLogin;
 
 
     @Override
@@ -24,11 +25,18 @@ public class MainActivity extends AppCompatActivity {
         JmB1 = (Button) findViewById(R.id.mb1);
         JmB2 = (Button) findViewById(R.id.mb2);
         JmB3 = (Button) findViewById(R.id.mb3);
+        JLogin = (Button) findViewById(R.id.loginBtn);
 
         JmB1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                     play(v);
+            }
+        });
+        JLogin.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+               login(v);
             }
         });
 
@@ -62,6 +70,10 @@ public class MainActivity extends AppCompatActivity {
         startActivity(playIntent);
 
         Log.d("intent working>", "Working");
+    }
+    public void login(View v){
+        Intent loginIntent = new Intent(this, LoginActivity.class);
+        startActivity(loginIntent);
     }
 
     @Override
